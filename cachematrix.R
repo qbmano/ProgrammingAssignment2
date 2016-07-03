@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix())
         list(set = set, get = get, setsolved = setsolved, getsolved = getsolved)
 }
 
-##This function first test if the matrix (x) has already been solved. If so, it returns it. If not, it
+##This function first tests if the matrix (x) has already been solved. If so, it returns it. If not, it
 ##solves it using functions declared in makeCacheMatrix, and then returns it.
 cacheSolve <- function(x, ...)
 {
